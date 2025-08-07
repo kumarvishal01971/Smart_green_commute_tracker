@@ -16,4 +16,4 @@ mode = "sequential"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "bun run start"
+args = "npm run start"

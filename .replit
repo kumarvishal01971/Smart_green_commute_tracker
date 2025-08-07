@@ -10,3 +10,15 @@ run = ["sh", "-c", "npm run start"]
 [[ports]]
 localPort = 8081
 externalPort = 80
+
+[workflows]
+runButton = "Start Expo App"
+
+[[workflows.workflow]]
+name = "Start Expo App"
+author = 46108334
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "PATH=$PATH:$HOME/.config/npm/node_global/bin npm run start"

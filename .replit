@@ -5,15 +5,3 @@ channel = "stable-25_05"
 
 [deployment]
 run = ["sh", "-c", "npm run start"]
-
-[workflows]
-runButton = "Start App"
-
-[[workflows.workflow]]
-name = "Start App"
-author = 46108334
-mode = "sequential"
-
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "npm run start"

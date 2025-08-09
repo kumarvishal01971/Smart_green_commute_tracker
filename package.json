@@ -32,9 +32,9 @@
       "expo-web-browser": "~14.1.6",
       "lucide-react-native": "^0.500.0",
       "nativewind": "^4.1.23",
-      "react": "19.0.0",
-      "react-dom": "19.0.0",
-      "react-native": "0.79.1",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "react-native": "0.73.6",
       "react-native-gesture-handler": "~2.24.0",
       "react-native-safe-area-context": "5.3.0",
       "react-native-screens": "~4.10.0",
@@ -45,7 +45,7 @@
     "devDependencies": {
       "@babel/core": "^7.25.2",
       "@expo/ngrok": "^4.1.0",
-      "@types/react": "~19.0.10",
+      "@types/react": "~18.2.45",
       "typescript": "~5.8.3"
     },
     "private": true

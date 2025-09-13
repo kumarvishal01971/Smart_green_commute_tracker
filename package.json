@@ -20,6 +20,7 @@
     },
     "devDependencies": {
         "@babel/core": "^7.24.5",
+        "@types/cookie": "^0.6.0",
         "typescript": "^5.3.3"
     },
     "private": true

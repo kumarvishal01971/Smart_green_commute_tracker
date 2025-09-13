@@ -3,6 +3,7 @@
     "name": "EcoPulse",
     "slug": "ecopulse",
     "version": "1.0.0",
+    "sdkVersion": "51.0.0",
     "orientation": "portrait",
     "ui": "light",
     "icon": "./assets/images/icon.png",
@@ -31,7 +32,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "YOUR_EAS_PROJECT_ID"
+        "projectId": null
       }
     }
   }
